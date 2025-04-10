@@ -1,6 +1,6 @@
 <?php
 
-namespace avadim\FastExcelLaravel\Facades;
+namespace devcbh\FastExcelLaravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

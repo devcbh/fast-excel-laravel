@@ -1,6 +1,6 @@
 <?php
 
-namespace avadim\FastExcelLaravel\Providers;
+namespace devcbh\FastExcelLaravel\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -30,7 +30,7 @@ class ExcelServiceProvider extends ServiceProvider
                 $data = collect($data);
             }
 
-            return new \avadim\FastExcelLaravel\Excel();
+            return new \devcbh\FastExcelLaravel\Excel();
         });
     }
 }

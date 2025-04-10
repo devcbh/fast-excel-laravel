@@ -1,6 +1,6 @@
 <?php
 
-namespace avadim\FastExcelLaravel;
+namespace devcbh\FastExcelLaravel;
 
 class ExcelReader extends \avadim\FastExcelReader\Excel
 {

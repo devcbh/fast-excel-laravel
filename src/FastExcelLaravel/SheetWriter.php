@@ -1,6 +1,6 @@
 <?php
 
-namespace avadim\FastExcelLaravel;
+namespace devcbh\FastExcelLaravel;
 
 use avadim\FastExcelWriter\Sheet;
 use avadim\FastExcelWriter\Style;
