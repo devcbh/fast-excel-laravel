@@ -17,12 +17,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "avadim\\FastExcelLaravel\\": "./src/FastExcelLaravel"
+            "devcbh\\FastExcelLaravel\\": "./src/FastExcelLaravel"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "avadim\\FastExcelLaravel\\Test\\": "tests/"
+            "devcbh\\FastExcelLaravel\\Test\\": "tests/"
         }
     },
     "require": {
