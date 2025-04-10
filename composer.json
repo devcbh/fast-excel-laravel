@@ -1,5 +1,5 @@
 {
-    "name": "avadim/fast-excel-laravel",
+    "name": "devcbh/fast-excel-laravel",
     "description": "Lightweight and very fast XLSX Excel Spreadsheet Export/Import for Laravel",
     "keywords": [
         "excel",
@@ -13,7 +13,7 @@
         "office 2007"
     ],
     "type": "library",
-    "homepage": "https://github.com/aVadim483/fast-excel-laravel",
+    "homepage": "https://github.com/devcbh/fast-excel-laravel",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -30,8 +30,8 @@
         "ext-json": "*",
         "avadim/fast-excel-writer": "^6.4",
         "avadim/fast-excel-reader": "^2.20",
-        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
-        "illuminate/contracts": "^6.0|^7.0|^8.0|^9.0|^10.0"
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "illuminate/contracts": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0|^5.0|^6.0",
@@ -40,10 +40,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "avadim\\FastExcelLaravel\\Providers\\ExcelServiceProvider"
+                "devcbh\\FastExcelLaravel\\Providers\\ExcelServiceProvider"
             ],
             "aliases": {
-                "Excel": "avadim\\FastExcelLaravel\\Facades\\Excel"
+                "Excel": "devcbh\\FastExcelLaravel\\Facades\\Excel"
             }
         }
     },
